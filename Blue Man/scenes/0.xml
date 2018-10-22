@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="1" extheight="544" extwidth="864" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="0" name="Stage 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
+    <layers>
+        <color-bg blue="0" green="0" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Grassy" opacity="100" order="1" rid="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions>
+        <terrainRegion b="64" g="64" group="1" h="62" id="0" name="Terrain 0" pts="4,797.0,0.0,797.0,62.0,0.0,62.0,0.0,0.0" r="64" type="box" w="797" x="-349" y="417"/>
+        <terrainRegion b="64" g="64" group="1" h="58" id="1" name="Terrain 1" pts="4,254.0,0.0,254.0,58.0,0.0,58.0,0.0,0.0" r="64" type="box" w="254" x="544" y="417"/>
+    </terrainRegions>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="0" name="Hero 1" sx="1.0" sy="1.0" x="-6" y="213" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="5" name="Enemy1 2" sx="1.0" sy="1.0" x="381" y="335" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="11" name="Coin 3" sx="1.0" sy="1.0" x="97" y="159" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,16.0,0.0,16.0,31.679993,0.0,31.679993,0.0,0.0" x="552.0" y="320.0"/>
+        <p pts="4,16.0,0.0,16.0,31.679993,0.0,31.679993,0.0,0.0" x="520.0" y="224.0"/>
+        <p pts="4,16.0,0.0,16.0,31.679993,0.0,31.679993,0.0,0.0" x="456.0" y="288.0"/>
+        <p pts="6,0.0,320.0,0.0,0.0,32.0,0.0,32.0,256.0,384.0,256.0,384.0,320.0" x="64.0" y="0.0"/>
+        <p pts="4,256.0,0.0,256.0,64.0,0.0,64.0,0.0,0.0" x="544.0" y="416.0"/>
+        <p pts="4,448.0,0.0,448.0,64.0,0.0,64.0,0.0,0.0" x="0.0" y="416.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

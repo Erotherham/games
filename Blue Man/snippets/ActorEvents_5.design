@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="-10"/>
+                </set-dxy>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-actor-region comment="false" x="14" y="14">
+            <group eventID="2" id="-1">
+                <kill-leave-screen comment="false" x="25" y="41">
+                    <ACTOR eid="this" id="0"/>
+                </kill-leave-screen>
+            </group>
+            <int id="0" val="1"/>
+            <REGION eid="lastcreated" id="1"/>
+            <ACTOR eid="this" id="2"/>
+        </event-actor-region>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="3" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </collision-top>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="0" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>
